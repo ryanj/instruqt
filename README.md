@@ -4,9 +4,20 @@ Welcome to the OpenShift Labs on Instruqt repositories. This repo is the source 
 
 Please refer to the [Instruqt Documentation](https://docs.instruqt.com/) to understand how it works.
 
-## Instruqt CLI
+## Dependencies
+
+#### Instruqt CLI
 
 The first thing to do is to download the [Instruqt CLI](https://docs.instruqt.com/reference/software-development-kit-sdk)
+
+#### yq
+
+The `yq` command line tool will also be needed.
+
+#### Instruqt branch management scripts
+
+Download a zip file that contains three bash scripts and install them somewhere that is accessible via your `$PATH`:
+https://docs.instruqt.com/how-to-guides/build-tracks/maintain-a-developer-workflow#bash-scripts
 
 ## Login
 
