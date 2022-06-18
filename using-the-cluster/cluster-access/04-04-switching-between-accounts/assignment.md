@@ -1,6 +1,6 @@
 ---
 slug: 04-switching-between-accounts
-id: lvk1hzl0nvz3
+id: b6tczbdrsxod
 type: challenge
 title: Topic 4 - Switching Users Between Accounts
 notes:
@@ -15,7 +15,7 @@ tabs:
   hostname: crc
   path: /root
 difficulty: basic
-timelimit: 150
+timelimit: 501
 ---
 In this topic you'll learn how to use the `oc login` command to move among a variety of OpenShift user accounts
 
@@ -111,7 +111,7 @@ oc config get-contexts
 You'll get output similar to the following:
 
 ```
-root@crc-gh9wd-master-0 /]# oc config get-contexts
+root@crc-m5qn9-master-0 /]# oc config get-contexts
 CURRENT   NAME                                         CLUSTER                AUTHINFO                         NAMESPACE
           /api-crc-testing:6443/user1                  api-crc-testing:6443   user1/api-crc-testing:6443
           admin                                        crc                    admin
